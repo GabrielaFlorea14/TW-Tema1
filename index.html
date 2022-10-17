@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> My page </title>
+
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Anton|Cabin|Lato|Fjalla+One|Montserrat|Roboto&display=swap"
+        rel="stylesheet">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+    
+    
+    <!-- CSS AND JS -->
+    <link rel="stylesheet" href="style.css">
+    <script scr="script.js"></script>
+
+
+</head>
+
+<body>
+
+    <!-- SLIDESHOW WITH PICTURES -->
+    <div class="slideshow">
+        <input type="radio" name="slide" id="firstslide" checked>
+        <input type="radio" name="slide" id="secondslide">
+        <input type="radio" name="slide" id="thirdslide">
+        
+
+        <div class="slides">
+            <div class="slide firstslide">
+                <div class="slide-data">
+                    <h1>I'm Gabriela</h1>
+                    <p>I'm a student of The Bucharest University of Economic Studies</p>
+                    <p> Faculty Economic Cybernetics, Statistics and Informatics </p>
+                </div>
+            </div>
+            <div class="slide secondslide">
+                <div class="slide-data">
+                    <h1>I'm Gabriela</h1>
+                    <p>I'm a student of The Bucharest University of Economic Studies</p>
+                    <p> Faculty Economic Cybernetics, Statistics and Informatics </p>
+                </div>
+            </div>
+            <div class="slide thirdslide">
+                <div class="slide-data">
+                    <h1>I'm Gabriela</h1>
+                    <p>I'm a student of The Bucharest University of Economic Studies</p>
+                    <p> Faculty Economic Cybernetics, Statistics and Informatics </p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- ARROWS -->
+        <div class="arrows arrow-left">
+            <label for="thirdslide">
+                <span><i class="fas fa-angle-left"></i></span>
+            </label>
+            <label for="firstslide">
+                <span><i class="fas fa-angle-left"></i></span>
+            </label>
+            <label for="secondslide">
+                <span><i class="fas fa-angle-left"></i></span>
+            </label>
+        </div>
+
+        <div class="arrows arrow-right">
+            <label for="secondslide">
+                <span><i class="fas fa-angle-right"></i></span>
+            </label>
+            <label for="thirdslide">
+                <span><i class="fas fa-angle-right"></i></span>
+            </label>
+            <label for="firstslide">
+                <span><i class="fas fa-angle-right"></i></span>
+            </label>
+        </div>
+        
+        <!-- ARROWS -->
+        <div class="dots">
+            <label for="firstslide"></label>
+            <label for="secondslide"></label>
+            <label for="thirdslide"></label>
+        </div>
+    </div>
+
+
+   <!--<hr>--> 
+   <!-- DIV FOR SECOND PART -->
+    <div class="hello">
+        <p id="hello-text">HELLO</p>
+
+        <img class="me" src="me.jpg"> 
+
+        <p id="aboutme"><b>I <span style="color:red; font-size: 21px;">&hearts;</span><span> nature</span></b></p>
+    </div>
+
+   <!--<hr>--> 
+
+    <div class="dotsfordiv"> 
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </div>
+
+
+    <!-- DIV FOR THIRD PART -->
+    <div class="divskill">
+    <h2 id="myskills"> My skills </h2>
+
+   <!--<img id="photoleft" src="skills.png">--> 
+    <a href="#" class="nextprevleft"> < / > </a>
+        <h1 class="skilltitleright">Certificate</h1>
+        <p class="skillright">Certificate of Course Completion: "Database Design and Programming with SQL"</p>
+
+    <a href="#" class="nextprevright"> < / > </a>
+     <h1 class="skilltitleleft">Another skill</h1>
+        <p class="skillleft">Another skill</p>
+</div>
+</div>
+ <div class="arrowsskills"> 
+   
+   <!-- <a href="#" class="previousround">&#8249;<span> / </span><a href="#" class="nextround">&#8250;</a></a> -->
+
+ </div> 
+   <!--<hr>--> 
+
+    <!-- GET IN TOUCH -->
+    <div class="dotsfordiv"> 
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </div>
+
+    <div class="getintouchdiv">
+        <h3 id="getintouch"> Get in touch</h3>
+        <div class="contactbutton">   
+                 <button type="button" onclick="window.open('mailto:floreamihaela20@stud.ase.ro');" id="contactme">Contact me</button>
+        </div>
+        <div class="contact"> 
+            <a href="https://www.facebook.com" target="_blank" id="link"> Facebook </a>
+            <a href="https://www.instagram.com" target="_blank" id="link" > Instagram  </a>
+            <a href="https://ro.linkedin.com" target="_blank" id="link"> LinkedIn </a>
+            <p> 2022@Florea Mihaela Gabriela</p>
+
+        </div>
+    </div>
+
+    </div>
+</body>
+
+</html>
